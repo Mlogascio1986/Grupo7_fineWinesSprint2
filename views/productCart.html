@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/440be295be.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/productCart.css">
+    <title>Fine Wines - CART</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="/images/logo 2.png" class="logo">
+            <h2 class="copy-header">    
+             <i class="fas fa-hand-holding-usd"></i>
+              Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div> 
+        <a class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </a>       
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <ul class="right-navbar">
+                <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav> 
+    </header>
+    <section class="banner">
+        <div>
+            <img src="/images/image 1.jpg" alt="Imagen Bodega">
+        </div>
+    </section>
+    <main>
+        <h1>Mi carrito</h1>
+        <br>
+        <article class="articulo">
+            <div class="img-titulo-precio">
+            <i class="fas fa-trash-alt"></i>
+            <img class="contenedor-img" src="images/alamosMalbec.jpg" width="360" alt="mouse con luces de colores">
+            <h4 class="descripcion">Los Alamos Malbec</h4>
+            <p class="precio">$6000</p>
+
+                <div class="cantidad-input">
+                    <label for="texto-cantidad" class="cantidad">Cantidad</label>
+                    <input type="number" value="1" min="1" max="25">
+                </div>  
+            </div>
+        </article>
+        <article class="articulo">
+            <div class="img-titulo-precio">
+            <i class="fas fa-trash-alt"></i>
+            <img class="contenedor-img" src="/images/santa-julia-tintillo-2019.jpg" width="360" alt="Notebook Lenovo">
+            <h4 class="descripcion">Santa Julia Tintillo 2019</h4>
+                <p class="precio">$65.290</p>
+
+                    <div class="cantidad-input">
+                        <label for="texto-cantidad" class="cantidad">Cantidad</label>
+                        <input type="number" value="1" min="1" max="25">
+                    </div>  
+            </div>
+         </article>
+         <article class="articulo">
+            <div class="img-titulo-precio">
+                <i class="fas fa-trash-alt"></i>
+                <img class="contenedor-img" src="/images/stpahyle-iris-malbec-2021.jpg" width="360" alt="Notebook Lenovo">
+                <h4 class="descripcion">Stpahyle Iris Malbec</h4>
+                <p class="precio">$7.290</p>
+                
+                    <div class="cantidad-input">
+                        <label for="texto-cantidad" class="cantidad">Cantidad</label>
+                        <input type="number" value="1" min="1" max="25">
+                    </div>  
+
+             </div>
+        </article>
+
+
+            <!--Sección seguir comprando-->
+                <div class="seguir-comprando">
+                    <p class="comprando"><a href="/" class="seguir"><i class="fas fa-chevron-circle-left"></i>Seguir comprando</a></p>
+                </div>
+
+            <!--Resumen de compra-->
+
+            <article class="total">
+                <h2 class="titulos">Resumen</h2>
+                
+                <p class="sub-total">Subtotal:</p>
+                <p class="resultados">$98.443</p>
+                <p class="envio">Envio:</p>
+                <p class="resultados">Gratis</p>
+                <h2 class="titulos">Total:</h2>
+                <p class="resultados">$98.443</p>
+                <button type="submit" value="comprar" class="button">Comprar ahora</button>
+                
+
+
+            </article>
+
+            <section class="suscribirse">
+
+                <div class="enterate-novedades">
+                    <h3>¡Enterate de todas las novedades!</h3>
+                    <p>Recibí nuestras promociones exclusivas en tu correo.</p>
+                </div>
+        
+                <div class="correo-suscripcion">
+        
+                    <input type="email" placeholder="Ingresa tu email" name="correo">
+                    <button type="submit" value="suscripcion">SUSCRIBIRME</button>
+                </div>
+        
+            </section>
+            <br>
+    </main>
+
+    <footer>
+        <section>
+            <i class="fa-solid fa-credit-card"></i>
+            <h2>Pagá con tarjeta o en efectivo</h2>
+           <p>Tenés cuotas sin interés con tarjeta o efectivo en
+            puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+        <section>
+            <i class="fa-solid fa-gift"></i>
+            <h2>Envío gratis desde $ 2.500</h2>
+           <p>Solo por estar registrad@ tenés envíos gratis.</p>
+        </section>
+        <section>
+            <i class="fa-solid fa-user-shield"></i>
+            <h2>Seguridad, de principio a fin</h2>
+           <p>¿No te gusta? ¡Devolvelo! Estás siempre protegid@.</p>
+        </section> 
+        <section>
+            <br><br><br>
+            <h2 class="copyright">Copyright © 1999-2022 Fine Wines</h2>
+        </section>   
+    </footer>
+</body>
+</html>
