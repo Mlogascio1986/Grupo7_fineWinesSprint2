@@ -8,7 +8,7 @@ body{
     background: white;
     color: black;
 }
-/*Header*/
+/*-----------Header------------*/
 .main-header{
     background-color: white;
     padding: 20px;
@@ -48,7 +48,7 @@ body{
     padding: 5px 0;
     font-size: 17px;
 }
-/*Banners*/
+/*---------Banners-----------*/
 section.banner div img{
     width: 100%;
 }
