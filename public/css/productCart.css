@@ -46,60 +46,18 @@ body{
     color: #222222;
     display: inline-block;
     padding: 5px 0;
-    font-size: 17px;
+    font-size: 16px;
 }
 /*---------Banners-----------*/
 section.banner div img{
     width: 100%;
 }
-
+/*--------main---------------*/
 main{
     width: 90%;
     margin: 0 auto;
 }
 
-
-/*carrito*/
-.barra1 .carrito i{
-    position: absolute;
-    font-size: 22px;
-    border-radius: 4px;
-    left: 89%;
-    padding: 10px;
-    color:#FFF;
-}
-.barra1 .barra-busqueda{
-    display: flex;
-    align-items: center;
-}
-.barra1 .barra-busqueda .input{
-    height: 20px;
-    font-size: 13px;
-    border: solid 2px rgb(197, 191, 191);
-    padding: 6px;
-    border-radius: 9px;
-    text-align: center;
-    margin-right:4px ; 
-}
-.barra1 .barra-busqueda{   
-    margin-bottom:69px;
-    margin-left:-72%;   
-}
-.barra1 .iconos{
-    display: none;
-}
-.iconos{
-    color: white;   
-}
-/*Sub menu2*/
-.barra2 nav ul{
-    display: none;
-}
-.iconos-barra2 i{
-    display: none;
-}
-
-/*main*/
 h1{
     padding: 2%;
 }
