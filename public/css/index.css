@@ -97,6 +97,7 @@ header div.top-header p{
     display:flex;
     align-items: center;
     justify-content: right;
+    display: none;
 }
 
 header div i{
