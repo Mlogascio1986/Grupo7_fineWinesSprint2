@@ -97,7 +97,6 @@ header div.top-header p{
     display:flex;
     align-items: center;
     justify-content: right;
-    display: none;
 }
 
 header div i{
@@ -280,9 +279,7 @@ footer section p{
         width: 80%;
         margin-bottom: 5px;
        }
-
 }
-
 
 @media (min-width: 480px){
   
@@ -327,7 +324,7 @@ footer section p{
     }
 
     .ocultar-mobile{
-        display:block;
+        display: block;
     }
 }
 
@@ -338,4 +335,5 @@ footer section p{
     }
     .articulo{
         width: 20%;
-       }   
+       }
+    }
