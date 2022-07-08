@@ -249,7 +249,7 @@ form{
 }
 .form-div input{
     width:55%;
-    border-radius: 8px;
+    border-radius: 4px;
     height: 25px;
     border: 1px solid grey;
 }

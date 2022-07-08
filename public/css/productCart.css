@@ -9,43 +9,71 @@ body{
     color: black;
 }
 /*-----------Header------------*/
-.main-header{
-    background-color: white;
-    padding: 20px;
+header{
+    background-color:  #FFF;
+    /*display: flex;*/
 }
-.burger-menu{
-    background-color: #03264C;
-    color: #ffffff;
-    display: block;
-    max-width: 50px;
-    padding: 15px 0;
-    border-radius: 8px;
+
+.top-header{
+    padding: 5%;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+#logo{
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+}
+
+
+.burger-menu i{
+    background-color:  #F5F5F5;
+    border-radius: 5px;
+    color:#000;
+    font-size: 10px;
+    padding: 10px;
+}
+
+header div.top-header p{
+    width: 100%;
     text-align: center;
-    font-size: 18px;
-    margin: 10px auto 0;
+    margin-top: 10px;
 }
-.logo{
-    width: 150px;
+
+
+header div i{
+    padding: 5px;
 }
-.copy-header{
-    font-weight: 400;
-    text-align: center;
-    font-size: 16px;
-}
-.main-navbar{
+
+header nav{
+
+    font-size: 12px;
     display: none;
+    border-color: black;
+    background-color: black;
+    height:7vh;
 }
-.main-navbar ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;    
+
+header nav ul{
+    align-items: center;
+    height: 50px;
 }
-.main-navbar a{
+
+header ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+header ul li a{
     text-decoration: none;
-    color: #222222;
-    display: inline-block;
-    padding: 5px 0;
-    font-size: 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
 }
 /*---------Banners-----------*/
 section.banner div img{
@@ -222,34 +250,36 @@ article i{
 
 /* Estilos del footer */
 footer{
-    margin-top: 20px;
-}
-footer{
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
    text-align: center;
+   background-color: black;
 }
-footer section i{
-    font-size: 2em;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    transition: all 600ms;
+
+footer section i{   
+    margin-top: 10px;
+    background-color: white;
 }
 
 footer section h2{
-    font-size: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
 }
+
 footer section p{
-    margin: 0 30px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: white;
+    margin-bottom:15px;
 }
-footer section{
-    width: 100%;
+
+.ocultar-mobile{
+    display:none
 }
-.copyright{
-    font-weight: 400;
-    padding: 5px;
-}
+
 
 
 
@@ -265,11 +295,20 @@ footer section{
         display: none;}
     .main-navbar{
         display:flex;
-        justify-content: space-between;}
+        justify-content: space-between;
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
     .main-navbar ul{
-        display: flex;}
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
     .main-navbar li{
-        margin: 0 5px;}  
+        margin: 0 5px;
+        color: white;
+    }  
 /*------MAIN---------*/
     .descripcion{
         font-size: 15px;
@@ -340,12 +379,13 @@ footer{
     .logo{
         width: 250px;}
     .main-header-top-bar, .main-navbar {
-        max-width: 1000px;
         margin: auto;}
     .main-header-top-bar{
         align-items: center;}
     .main-navbar{
-        margin-top: 20px;}
+        margin-top: 20px;
+        justify-content: space-between;
+    }
     .main-navbar li{
         margin: 0 10px;}
     .main-navbar a{
