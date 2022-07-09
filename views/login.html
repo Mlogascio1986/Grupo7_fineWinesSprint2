@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/7f28056c4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <title>FINE WINES - HOME</title>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <figure>
+                <a href="/"><img src="/images/logo.png" id="logo"></a>
+            </figure>
+
+            <div class="burger-menu">
+                <i class="fa fa-bars burger"></i>
+            </div>
+            
+        </div>
+        <!--al abrir menu de hamburguesa se despliega lo siguiente-->
+       <nav>
+            <ul>
+                <li><a href="#">BODEGAS</a></li>
+                <li><a href="#">TINTOS</a></li>
+                <li><a href="#">BLANCOS</a></li>
+                <li><a href="#">ROSADOS</a></li>
+                <li><a href="#">ESPUMANTES</a></li>
+            </ul>
+            <!--<ul>
+                <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>-->
+        </nav>
+        
+    </header>
+    <main>
+        <br>
+        <br>
+        <!------- Formulario ---------->
+        <div class="form-container">
+        <h2 class="register-title">Ingresa!!</h2>
+        <form class="register-form" action="/login" method="GET">
+           
+            <div class="form-div">
+                <label for="nombreUsuario" class="form-label">Nombre de usuario/a</label>
+                <!-- Micro-Desafío 3 required - Clase 15 -->
+                <input type="text" name="nombreUsuario" id="nombreUsuario" required>
+            </div>
+      
+          
+                                  
+     
+            <div class="form-div">
+                <label for="password" class="form-label">Contraseña</label>
+                <!-- Micro-Desafío 3 required - Clase 15 -->
+                <input type="password" name="password" id="password" required>
+            </div> 
+  
+            <div class="form-buttons">
+                <button type="submit" class="submit-button">Enviar</button>
+                <button type="reset" class="reset-button">Limpiar</button>
+            </div>       
+        </form>
+        <br>
+        <br>
+    </div>
+       
+        <br>
+    </main> 
+    
+
+</body>
+<footer>
+    <section>
+        <h2>INSTITUCIONAL</h2>
+       <p>¿Quienes somos?</p>
+    </section>
+    <section class="ocultar-mobile">
+        <h2>PRODUCTOS</h2>
+       <p>Bodegas<br>Categorías</p>
+    </section>
+    <section>
+        <h2>CONTACTOS</h2>
+       <p>Whatsapp: 1165104040<br>Email: ventas@finwines.com</p>
+    </section> 
+    <section>
+        <h2>SEGUINOS</h2>
+        <i class="fa-brands fa-instagram"></i>
+    </section>
+</footer>
+</html>
