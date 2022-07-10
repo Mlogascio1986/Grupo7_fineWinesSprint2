@@ -62,7 +62,7 @@ header nav{
 
 header nav ul{
     align-items: center;
-    height: 54px;
+    height:35px;
 }
 
 header ul li{
@@ -106,7 +106,7 @@ h1{
 .contenedor-img{
     align-self: center;
     width: 30%;
-    border: 2px solid #2757ff;
+    border: 1px solid gray;
 }
 .descripcion{
     font-size: 12px;

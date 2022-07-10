@@ -77,7 +77,7 @@ header nav ul{
     flex:wrap;
     justify-content: space-around;
     align-items: center;
-    height: 50px;
+    height: 35px;
 }
 
 header ul li{
@@ -302,7 +302,7 @@ input.foto{
     padding: 0 22.5%;
 }
 .form-buttons button{
-    background-color:blue;
+    background-color:black;
     color: white;
     width: 80px;
     margin-top: 30px;

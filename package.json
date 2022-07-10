@@ -1,7 +1,7 @@
 {
   "name": "grupo_7_finewines_sprint2",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://trello.com/b/YzDmkwff/fine-wines",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
