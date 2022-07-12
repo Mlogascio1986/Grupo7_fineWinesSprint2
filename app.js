@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 
 // definimos el puerto en el que se va a levantar el servidor
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // definimos las rutas para los archivos estáticos(públicos) y otra para las vistas
 const viewsPath = path.join(__dirname, 'views');
